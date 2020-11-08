@@ -1,17 +1,8 @@
-class example(object):
-    def __init__(self):
-        self.__string_value = ""
+list_inputs = input("Provide nums")
+list_data = list(list_inputs)
+tuple_data = tuple(list_data)
 
-    def setString(self):
-        self.string_value = self.__string_value
-
-    def getString(self):
-        self.string_value = input()
-
-    def printString(self):
-        return self.string_value.upper()
-
-    
-out = example()
-out.getString()
-out.printString()
+print(tuple)
+# print(list_data)
+# for el in list_data:
+#     print(el)
