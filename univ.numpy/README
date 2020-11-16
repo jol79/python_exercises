@@ -1,0 +1,32 @@
+ex9
+	Create the displayed NumPy array without explicitly
+	writing its values.
+	[[ 1 4 7 10 13 16 19 22 25 28]
+        [ 2 5 8 11 14 17 20 23 26 29]
+        [ 3 6 9 12 15 18 21 24 27 30]]
+       
+ex10
+	Suppose you want to evaluate the body mass index (BMI) of a group of people from their
+	height and weight records. Knowing that each person's BMI is given by the quotient between
+	their weight and the square of their height, implement all the tasks that follow, using the
+	numpy package features.
+	
+	a) Create 2 arrays. The first one-dimensional, containing the names of a group of 10
+	people, which will choose arbitrarily, and the other two-dimensional 2x10, with the
+	weights and heights of those people, stored in their respective lines. In so that you do
+	not have to enter all these values one by one, randomly generate them respecting the
+	following constraints: all integer values; the weights should be between 50 and 100 kg;
+	and heights between 150 and 200 cm.
+	
+	b) Calculate, and store in a new array, the body mass index of each person.
+	Caderno de Exercícios – 2020/2021
+
+	c) Show how people are classified according to the following categories: "Lean" if
+	BMI<18.5; “Fatty”="" se="" imc="">25; and "Normal" if 18.5≤BMI≤25</18.5;>.
+	d) Show all people's attributes in ascending order of BMI.
+	e) Show standard deviation of weights and heights.
+	f) Show people weighing more than average.
+	
+ex11
+	Create a NumPy 3x10 array, with actual random values, evenly distributed between 10 and 20
+	(this one, exclusive). Then automatically identify the nearest value of 15 on each of the lines.
